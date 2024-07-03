@@ -98,7 +98,7 @@ def hotword():
                 # pressing shorcut key win+f
                 import pyautogui as autogui
                 autogui.keyDown("win")
-                autogui.press("f")
+                autogui.press("j")
                 time.sleep(2)
                 autogui.keyUp("win")
                 
