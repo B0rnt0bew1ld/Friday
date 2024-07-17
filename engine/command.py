@@ -59,7 +59,7 @@ def allCommands(message=1):
             PlayYoutube(query)
 
         elif "what is your name" in query:
-            speak("My name is Friday, I am a Voice Assistant who will be your friend for everyday and will be as much as helpfull to your grace")
+            speak("My name is Friday, I am a Voice Assistant who will be your friend for everyday and will be as much as helpful to you My grace")
 
         elif "what do you like" in query:
             speak("I like you My grace.")
