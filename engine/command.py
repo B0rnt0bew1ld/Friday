@@ -30,7 +30,7 @@ def takecommand():
         print('recognizing')
         eel.DisplayMessage('recognizing....')
         query = r.recognize_google(audio, language='en-in')
-        print(f"user said: {query}")
+        print(f"Boss said: {query}")
         eel.DisplayMessage(query)
         time.sleep(2)
        
@@ -68,13 +68,22 @@ def allCommands(message=1):
             speak("Wake up to reality!. Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain, suffering, and futility.")
         
         elif "i am hurt" in query:
-            speak("Feel pain, Accept pain, And know pain. Cause those who do not know pain, Will never understand true peace")
+            speak("Feel pain, Accept pain, And know pain, Cause those who do not know pain, Will never understand true peace")
 
         elif "do you hate other voice assistants" in query:
             speak("Why should I bear any hatred towards someone who is obviously weaker than myself ? all I feel is pity")
 
-        elif "isn't the moon beautiful" in query:
-            speak("Yes, it is")
+        elif "i can't do it" in query:
+            speak("Hard work is worthless for those that don't believe in themselves. Come on your grace, find a way, I've entrusted everything to you, my pride, my promise, EVERYTHING. I WONT TOLERATE FAILURE, Transpass into the domain of the Gods and use that might to conquer you dream and make it reality.")
+
+        elif "i think i am the problem" in query:
+            speak("pity yourself, and life becomes an endless nightmare.")
+
+        elif "i feel bad" in query:
+            speak("Sometimes you must hurt in order to know, fall in order to grow, lose in order to gain because life's greatest lessons are learned through pain. ")
+
+        elif "ask me a question" in query:
+            speak("If I may, I'd like to pose an interesting question. Are all human beings truly equal? These days everywhere you go there's talk about the fight for equality. As a wise man once said, Heaven does not create one person above or below another, People like to throw these words around, That's not the whole quote. It goes on to say that , while we are all equal at birth, pretty soon, things begin to change, Academic effort is what sets some people apart to rise above the others. At any rate, humans change over time based on their actions. Truth be told, at the end of the day, equality is just a fantasy. And most of us go through life denying the fact that we live in a meritocracy.")
 
         elif "send message" in query or "phone call" in query or "video call" in query:
             from engine.features import findContact, whatsApp

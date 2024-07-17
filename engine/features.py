@@ -75,7 +75,7 @@ def PlayYoutube(query):
 # find contacts
 def findContact(query):
     
-    words_to_remove = [ASSISTANT_NAME, 'make', 'a', 'to', 'phone', 'call', 'send', 'message', 'wahtsapp', 'video']
+    words_to_remove = [ASSISTANT_NAME, 'make', 'a', 'to', 'phone', 'call', 'send', 'message', 'whatsapp', 'video']
     query = remove_words(query, words_to_remove)
 
     try:
