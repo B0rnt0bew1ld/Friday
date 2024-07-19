@@ -70,7 +70,7 @@ def allCommands(message=1):
         elif "i am hurt" in query:
             speak("Feel pain, Accept pain, And know pain, Cause those who do not know pain, Will never understand true peace")
 
-        elif "do you hate other voice assistants" in query:
+        elif "do you hate other voice assistant" in query:
             speak("Why should I bear any hatred towards someone who is obviously weaker than myself ? all I feel is pity")
 
         elif "i can't do it" in query:

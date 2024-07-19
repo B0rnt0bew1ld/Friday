@@ -97,7 +97,7 @@ def whatsApp(mobile_no, message, flag, name):
     
 
     if flag == 'message':
-        target_tab = 12
+        target_tab = 13
         friday_message = "message send successfully to "+name
 
     elif flag == 'call':
